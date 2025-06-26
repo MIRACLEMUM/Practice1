@@ -1,7 +1,9 @@
 import './App.css';
 
+
 import Button from './components/Button';
 import Form from './components/Form';
+import Colorpicker from './components/Colorpicker';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
 
       <h2>Simple Form</h2>
       <Form />
+
+      <Colorpicker/>
     </div>
   );
 }
